@@ -1,0 +1,639 @@
+@import url("https://fonts.googleapis.com/css2?family=Engagement&family=Nunito+Sans:wght@400;700&display=swap");
+body {
+  margin: 0;
+  background-color: ivory;
+  font-family: "Nunito Sans";
+}
+
+header {
+  background: #7e7e7e;
+  padding: 10px;
+}
+
+header .logo a {
+  font-family: "Engagement";
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  font-size: 350%;
+  color: black;
+}
+
+header .logo a span {
+  color: ivory;
+}
+
+header .primary-nav {
+  margin-top: 20px;
+}
+
+header .primary-nav a {
+  text-decoration: none;
+  color: ivory;
+  font-size: 150%;
+  margin: 10px;
+  padding: 10px;
+  font-family: "Nunito Sans";
+}
+
+header .primary-nav a:hover {
+  background-color: ivory;
+  color: black;
+}
+
+header .secondary-nav {
+  margin-top: 20px;
+}
+
+header .sign-link {
+  text-decoration: none;
+  color: ivory;
+  font-size: 150%;
+  margin: 10px;
+  padding: 10px;
+  font-family: "Nunito Sans";
+}
+
+header .sign-link:hover {
+  background-color: ivory;
+  color: black;
+}
+
+header .logout-link a {
+  text-decoration: none;
+  color: black;
+}
+
+header .logout-link:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+header .logout-link:hover a {
+  color: ivory;
+}
+
+header button {
+  background-color: ivory;
+  color: black;
+  margin: 5px;
+  padding: 10px 25px;
+  font-size: 90%;
+  border: none;
+  border-radius: 0.2em;
+  opacity: 0.9;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer {
+  background-color: #7e7e7e;
+  margin: 0;
+  padding: 0px 40px 20px 40px;
+  color: ivory;
+}
+
+footer h2 {
+  position: relative;
+  top: 15px;
+  left: 0;
+}
+
+footer .column-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .column-1 .chip1 {
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: black;
+  margin: 20px 0 0 0;
+}
+
+footer .column-1 .chip2 {
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 25px;
+  border-radius: 25px;
+  background-color: black;
+  margin: 20px 0 0 0;
+}
+
+footer .column-1 img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+footer .column-1 a {
+  text-decoration: none;
+  color: ivory;
+}
+
+footer .column-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .column-2 a {
+  text-decoration: none;
+  color: ivory;
+}
+
+footer .column-2 textarea {
+  resize: none;
+  background-color: ivory;
+  border-color: black;
+  color: black;
+}
+
+footer .column-2 button {
+  background-color: black;
+  color: ivory;
+  height: 40px;
+  width: 100px;
+  border-color: ivory;
+  border-width: 1px;
+}
+
+footer .column-2 .logo a {
+  color: black;
+  font-family: "Engagement";
+  font-size: 350%;
+}
+
+footer .column-2 .logo a span {
+  color: ivory;
+}
+
+footer .column-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .column-3 .unchecked {
+  color: ivory;
+  font-size: 150%;
+}
+
+footer .column-3 .unchecked:hover {
+  cursor: pointer;
+}
+
+footer .column-3 .checked {
+  color: yellow;
+  font-size: 150%;
+}
+
+footer .column-3 .checked:hover {
+  cursor: pointer;
+}
+
+footer .column-3 .checked-noclick {
+  color: yellow;
+  font-size: 150%;
+}
+
+footer .column-3 .chip {
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: black;
+  margin: 20px 0 0 0;
+}
+
+footer .column-3 img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+footer .column-3 a {
+  text-decoration: none;
+  color: ivory;
+}
+
+footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .copyrights {
+  margin: auto;
+  text-align: center;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 200px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: ivory;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: ivory;
+  color: black;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 150%;
+  color: black;
+}
+
+/* Add a blue color to the author */
+.author {
+  font-weight: bold;
+  color: #414040;
+}
+
+.signup-form {
+  color: black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px ridge black;
+  padding: 10px 30px 30px 30px;
+  margin: 20px;
+  font-size: 125%;
+}
+
+.signup-form .form-heading {
+  text-align: center;
+}
+
+.signup-form .form-elements table {
+  border: 0;
+}
+
+.signup-form .form-elements .input-box {
+  background-color: #f1f1f1;
+  border: none;
+  height: 25px;
+  width: 400px;
+  padding: 15px;
+  border-radius: 0.3em;
+}
+
+.signup-form .form-elements .validate-error {
+  background-color: ivory;
+  border: none;
+  color: red;
+  height: 25px;
+}
+
+.signup-form .form-elements .input-box:focus {
+  outline: none;
+  background-color: #ddd;
+}
+
+.signup-form .form-elements .signup-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signup-form .form-elements button {
+  margin: 20px;
+  padding: 15px 32px;
+  font-size: 90%;
+  color: black;
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 0.2em;
+  opacity: 0.9;
+}
+
+.signup-form .form-elements button a {
+  text-decoration: none;
+  color: black;
+}
+
+.signup-form .form-elements button:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.menu-head {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.active, .menu-head:hover {
+  background-color: #ccc;
+}
+
+.menu-items {
+  padding: 0 18px;
+  display: none;
+  background-color: ivory;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+.cart-btn {
+  margin: 20px;
+  padding: 15px 32px;
+  font-size: 90%;
+  color: black;
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 0.2em;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.food-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.food-table td {
+  padding: 20px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.wrapper a {
+  text-decoration: none;
+  color: black;
+  height: 25px;
+  width: 100px;
+  padding: 15px;
+  border-radius: 0.3em;
+  margin-bottom: 20px;
+}
+
+.billtable h2 {
+  color: black;
+}
+
+.billtable th, .billtable tr, .billtable td {
+  padding: 20px;
+}
+
+.billtable .cart-inp {
+  background-color: #f1f1f1;
+  border: none;
+  height: 25px;
+  width: 250px;
+  padding: 15px;
+  border-radius: 0.3em;
+}
+
+.billtable button {
+  margin: 20px;
+  padding: 15px 32px;
+  font-size: 90%;
+  color: black;
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 0.2em;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.total-value {
+  background-color: ivory;
+  border: none;
+  text-align: center;
+}
+
+.total-amt {
+  position: absolute;
+  margin-left: 30px;
+}
+
+.del-item-btn {
+  padding: 15px 32px;
+  font-size: 90%;
+  color: black;
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 0.2em;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.login-form {
+  color: black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px ridge black;
+  padding: 10px 30px 30px 30px;
+  margin: 20px;
+  font-size: 125%;
+}
+
+.login-form .form-heading {
+  text-align: center;
+}
+
+.login-form .form-elements table {
+  border: 0;
+}
+
+.login-form .form-elements .input-box {
+  background-color: #f1f1f1;
+  border: none;
+  height: 25px;
+  width: 400px;
+  padding: 15px;
+  border-radius: 0.3em;
+}
+
+.login-form .form-elements .validate-error {
+  background-color: ivory;
+  border: none;
+  color: red;
+  height: 25px;
+}
+
+.login-form .form-elements .input-box:focus {
+  outline: none;
+  background-color: #ddd;
+}
+
+.login-form .form-elements .signup-buttons {
+  margin: 20px;
+  padding: 15px 32px;
+  font-size: 90%;
+  color: black;
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 0.2em;
+  opacity: 0.9;
+}
+
+.login-form .form-elements .signup-buttons a {
+  text-decoration: none;
+  color: black;
+}
+
+.login-form .form-elements .signup-buttons:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.reviews-table {
+  border: 1px ridge black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reviews-table tr, .reviews-table td, .reviews-table th {
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 200;
+  font-size: 110%;
+}
+
+.reviews-table tr .username-column, .reviews-table td .username-column, .reviews-table th .username-column {
+  font-family: "Engagement";
+}
+
+.reviews-table tr th, .reviews-table td th, .reviews-table th th {
+  font-size: 130%;
+  font-weight: 300;
+}
+
+.reviews-table tr tr, .reviews-table td tr, .reviews-table th tr {
+  border-bottom: 1px solid black;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+h2 {
+  color: ivory;
+  position: absolute;
+  top: 8px;
+  left: 60%;
+  font-size: 200%;
+}
+
+.centred {
+  color: ivory;
+  position: absolute;
+  font-size: 150%;
+  top: 50%;
+  left: 65%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=main.css.map */
